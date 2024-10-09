@@ -1,4 +1,23 @@
 element.style {
-        border: solid;
+    border: solid 2px white;
      }
-     
+header{
+    background-color: blueviolet;
+}
+.section1{
+    background-color: brown;
+    height: 1vh;
+}
+.section2{
+    background-color: aqua;
+    height: 1vh;
+}
+
+body{
+    font-family: gotham, arial, helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
