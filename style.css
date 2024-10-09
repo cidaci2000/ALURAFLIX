@@ -2,22 +2,25 @@ element.style {
     border: solid 2px white;
      }
 header{
-    background-color: blueviolet;
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 6, 83);
 }
 .section1{
     background-color: brown;
-    height: 1vh;
+    height: 100vh;
 }
 .section2{
     background-color: aqua;
-    height: 1vh;
+    height: 100vh;
 }
 
 body{
-    font-family: gotham, arial, helvetica, sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
     margin: 0 auto;
     text-align: center;
+    background-color: rgb(178, 180, 180);
 }
