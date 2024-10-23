@@ -6,12 +6,11 @@ html, body {
         overflow-x: hidden;
 }
 body{
-    font-size: 18px;
     margin: 0;
     padding: 0;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(53, 53, 88);
+    background-color: rgb(8, 8, 8);
 }
 .container{
     @media (max-width: 992px){
@@ -21,13 +20,15 @@ body{
         }
       }
 }
-    
+h1{
+    color: aliceblue;
+}   
 header{
     border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 6, 83);
-    height: 20vh;
+    padding: 10px;
+    font-size: 28px;
+    color: rgb(231, 226, 236);
+    height: 15vh;
 }
 .section1{
     background-color: rgb(53, 53, 88);
@@ -41,4 +42,7 @@ header{
 }
 .vid{
     width: 25%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
 }
