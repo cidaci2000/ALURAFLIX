@@ -1,6 +1,4 @@
-element.style {
-    border: solid 2px white;
-     }
+
 html, body {
         height: 100%;
         overflow-x: hidden;
@@ -22,13 +20,14 @@ body{
 }
 h1{
     color: aliceblue;
+    margin-top: auto;
 }   
 header{
     border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 10px;
+    padding: 5px;
     font-size: 28px;
     color: rgb(231, 226, 236);
-    height: 15vh;
+    height: 10vh;
 }
 .section1{
     background-color: rgb(53, 53, 88);
@@ -38,13 +37,15 @@ header{
     background-color: rgb(53, 53, 88);
     color: aliceblue;
     display: flex;
-   
+    overflow-x: scroll;
+    
 }
 .vid{
     width: 25%;
     border-width: 2px;
     border-style: solid;
     border-color: black;
+    gap: 10px;
 }
 img{
     height:200px ;
